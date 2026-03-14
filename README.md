@@ -86,11 +86,11 @@ git commit -m ":bulb: docs: Comentários sobre a função XXXXXXXX"
 ```bash
 git commit -m ":card_file_box: raw: RAW Data do ano aaaa"
 ```
-🧹 cleanup: Eliminando blocos de código comentados e variáveis não utilizadas na função de validação de formulário
+🧹 cleanup: Eliminado comentários e variáveis não usadas
 ```bash
-git commit -m ":broom: cleanup: Eliminando blocos de código comentados e variáveis não utilizadas na função de validação de formulário"
+git commit -m ":broom: cleanup: Eliminado comentários e variáveis não usadas"
 ```	
-🗑️ remove: Removendo arquivos não utilizados do projeto para manter a organização e atualização contínua
+🗑️ remove: Removido arquivos não usados
 ```bash
-git commit -m ":wastebasket: remove: Removendo arquivos não utilizados do projeto para manter a organização e atualização contínua"
+git commit -m ":wastebasket: remove: Removido arquivos não usados"
 ```	
