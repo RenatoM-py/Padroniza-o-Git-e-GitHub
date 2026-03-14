@@ -1,4 +1,4 @@
-## PADRONIZAÇÃO 🧾
+# PADRONIZAÇÃO 🧾
 
 Estudos de padronização em GIT & GITHUB
 
@@ -33,64 +33,64 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 - `remove` - Commits do tipo remove indicam a exclusão de arquivos, diretórios ou funcionalidades obsoletas ou não utilizadas, reduzindo o tamanho e a complexidade do projeto e mantendo-o mais organizado.
 
 
+## Padrão + Comando 💻
 
-## EMOJE | Comando Git	 |  Resultado no GitHub
+🎉Commit inicial: 
 ```bash
 git commit -m ":tada: Commit inicial"
 ```
-🎉Commit inicial
+📚 docs: Atualização do README
 ```bash
 git commit -m ":books: docs: Atualização do README"
 ```	
-📚 docs: Atualização do README
+🐛 fix: Loop infinito na linha 100
 ```bash 
 git commit -m ":bug: fix: Loop infinito na linha 50"
 ```	
-🐛 fix: Loop infinito na linha 50
+✨ feat: Página de login
 ```bash
 git commit -m ":sparkles: feat: Página de login"
 ```
-✨ feat: Página de login
+🧱 ci: Modificação no Dockerfile
 ```bash
 git commit -m ":bricks: ci: Modificação no Dockerfile"
 ```
-🧱 ci: Modificação no Dockerfile
+♻️ refactor: Passando para arrow functions
 ```bash
 git commit -m ":recycle: refactor: Passando para arrow functions"
 ```	
-♻️ refactor: Passando para arrow functions
+⚡ perf: Melhoria no tempo de resposta
 ```bash
 git commit -m ":zap: perf: Melhoria no tempo de resposta"
 ```	
-⚡ perf: Melhoria no tempo de resposta
+💥 fix: Revertendo mudanças ineficientes
 ```bash
 git commit -m ":boom: fix: Revertendo mudanças ineficientes"
 ```	
-💥 fix: Revertendo mudanças ineficientes
+💄feat: Estilização CSS do formulário
 ```bash
 git commit -m ":lipstick: feat: Estilização CSS do formulário"
 ```	
- feat: Estilização CSS do formulário
+🧪 test: Criando novo teste
 ```bash
 git commit -m ":test_tube: test: Criando novo teste"	
 ```
-🧪 test: Criando novo teste
+💡 docs: Comentários sobre a função XXXXXXXX
 ```bash
-git commit -m ":bulb: docs: Comentários sobre a função LoremIpsum( )"
+git commit -m ":bulb: docs: Comentários sobre a função XXXXXXXX"
 ```	
-💡 docs: Comentários sobre a função LoremIpsum( )
-```bash
-git commit -m ":card_file_box: raw: RAW Data do ano aaaa"
-```
 
-Fora do comum, mas utilizado:
+## Fora do comum, mas utilizado:
 
 🗃️ raw: RAW Data do ano aaaa
 ```bash
+git commit -m ":card_file_box: raw: RAW Data do ano aaaa"
+```
+🧹 cleanup: Eliminando blocos de código comentados e variáveis não utilizadas na função de validação de formulário
+```bash
 git commit -m ":broom: cleanup: Eliminando blocos de código comentados e variáveis não utilizadas na função de validação de formulário"
 ```	
-🧹 cleanup: Eliminando blocos de código comentados e variáveis não utilizadas na função de validação de formulário
+🗑️ remove: Removendo arquivos não utilizados do projeto para manter a organização e atualização contínua
 ```bash
 git commit -m ":wastebasket: remove: Removendo arquivos não utilizados do projeto para manter a organização e atualização contínua"
 ```	
-🗑️ remove: Removendo arquivos não utilizados do projeto para manter a organização e atualização contínua
