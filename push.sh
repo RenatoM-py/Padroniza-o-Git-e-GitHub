@@ -1,22 +1,22 @@
 #!/bin/bash
 
 # Script shell para facilitar a criacao de commits semanticos
-# Copyright comentar sobre
+# Copyright comentar sobre, pois recebi em um dos downloads, em alguma das 500 aulas
 
 echo "Selecione o tipo de commit:"
-echo "1. feat: Novo recurso ✨"
-echo "2. fix: Correção de bug 🐛"
-echo "3. docs: Documentação 📚"
-echo "4. test: Testes 🧪"
-echo "5. build: Build ➕"
-echo "6. perf: Performance ⚡"
-echo "7. style: Estilo de código 🎨"
-echo "8. refactor: Refatoração ♻️"
-echo "9. chore: Tarefas 🔧"
-echo "10. ci: Integração contínua 🧱"
-echo "11. raw: Dados RAW 🗃️"
-echo "12. cleanup: Limpeza de código 🧹"
-echo "13. remove: Remoção de arquivos 🗑️"
+echo "1 - feat: Novo recurso ✨"
+echo "2 - fix: Correção de bug 🐛"
+echo "3 - docs: Documentação 📚"
+echo "4 - test: Testes 🧪"
+echo "5 - build: Build ➕"
+echo "6 - perf: Performance ⚡"
+echo "7 - style: Estilo de código 🎨"
+echo "8 - refactor: Refatoração ♻️"
+echo "9 - chore: Tarefas 🔧"
+echo "10 - ci: Integração contínua 🧱"
+echo "11 - raw: Dados RAW 🗃️"
+echo "12 - cleanup: Limpeza de código 🧹"
+echo "13 - remove: Remoção de arquivos 🗑️"
 echo ""
 
 
@@ -40,9 +40,7 @@ case $commit_type in
   *) echo "Tipo de commit inválido"; exit 1;;
 esac
 
-
 read -p "Digite a mensagem do commit: " message
-
 
 commit_message="[$type] $emoji: $message"
 git commit -a -m "$commit_message"
