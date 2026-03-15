@@ -35,62 +35,62 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 
 ## Padrão + Comando 💻
 
-🎉Commit inicial: 
+[commit] 🎉: Commit inicial: 
 ```bash
 git commit -m ":tada: Commit inicial"
 ```
-📚 docs: Atualização do README
+[docs] 📚: Atualização do README
 ```bash
 git commit -m ":books: docs: Atualização do README"
 ```	
-🐛 fix: Loop infinito na linha 100
+[fix] 🐛: Loop infinito na linha 100
 ```bash 
 git commit -m ":bug: fix: Loop infinito na linha 50"
 ```	
-✨ feat: Página de login
+[feat] ✨: Página de login
 ```bash
 git commit -m ":sparkles: feat: Página de login"
 ```
-🧱 ci: Modificação no Dockerfile
+[ci] 🧱: Modificação no Dockerfile
 ```bash
 git commit -m ":bricks: ci: Modificação no Dockerfile"
 ```
-♻️ refactor: Passando para arrow functions
+[refactor] ♻️: Passando para arrow functions
 ```bash
 git commit -m ":recycle: refactor: Passando para arrow functions"
 ```	
-⚡ perf: Melhoria no tempo de resposta
+[perf] ⚡: Melhoria no tempo de resposta
 ```bash
 git commit -m ":zap: perf: Melhoria no tempo de resposta"
 ```	
-💥 fix: Revertendo mudanças ineficientes
+[fix] 💥: Revertendo mudanças ineficientes
 ```bash
 git commit -m ":boom: fix: Revertendo mudanças ineficientes"
 ```	
-💄feat: Estilização CSS do formulário
+[feat] 💄: Estilização CSS do formulário
 ```bash
 git commit -m ":lipstick: feat: Estilização CSS do formulário"
 ```	
-🧪 test: Criando novo teste
+[test] 🧪: Criando novo teste
 ```bash
 git commit -m ":test_tube: test: Criando novo teste"	
 ```
-💡 docs: Comentários sobre a função XXXXXXXX
+[docs] 💡: Comentários sobre a função XXXXXXXX
 ```bash
 git commit -m ":bulb: docs: Comentários sobre a função XXXXXXXX"
 ```	
 
 ## Fora do comum, mas utilizado:
 
-🗃️ raw: RAW Data do ano aaaa
+[raw] 🗃️: RAW Data do ano aaaa
 ```bash
 git commit -m ":card_file_box: raw: RAW Data do ano aaaa"
 ```
-🧹 cleanup: Eliminado comentários e variáveis não usadas
+[cleanup] 🧹: Eliminado comentários e variáveis não usadas
 ```bash
 git commit -m ":broom: cleanup: Eliminado comentários e variáveis não usadas"
 ```	
-🗑️ remove: Removido arquivos não usados
+[remove] 🗑️: Removido arquivos não usados
 ```bash
 git commit -m ":wastebasket: remove: Removido arquivos não usados"
 ```	
