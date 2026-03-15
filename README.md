@@ -35,7 +35,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 
 ## Padrão + Comando 💻
 
-[Commit] 🎉: Commit inicial: 
+[commit] 🎉: Commit inicial: 
 ```bash
 git commit -m ":tada: Commit inicial"
 ```
